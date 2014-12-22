@@ -11,7 +11,7 @@
  *
  */
 var GPIO = require('onoff').Gpio,
-    led = new GPIO(17, 'out');
+    led = new GPIO(18, 'out');
 
 // start a timer that runs the callback function every second
 setInterval(function() {
