@@ -1,0 +1,21 @@
+{
+  "name": "pi_node_examples",
+  "version": "1.0.0",
+  "description": "A small collection of node.js GPIO examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "raspberry",
+    "pi",
+    "adafruit",
+    "gpio"
+  ],
+  "author": "Todd Treece <todd@uniontownlabs.org>",
+  "license": "MIT",
+  "dependencies": {
+    "gpio-stream": "^1.0.13",
+    "onoff": "^0.3.2"
+  }
+}
