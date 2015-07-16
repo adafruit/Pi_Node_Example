@@ -9,28 +9,6 @@ Run the following on your Raspberry Pi. This is assuming you have already [insta
     $ git clone https://github.com/adafruit/Pi_Node_Example.git ~/pi_examples && cd pi_examples
     $ npm install
 
-## Accessing GPIO without running scripts as root
-
-The Raspberry Pi's GPIO pins require you run scripts as the root user to access them.
-Because it's not safe to run scripts as the root user, we can install
-[quick2wire-gpio-admin](https://github.com/quick2wire/quick2wire-gpio-admin) to avoid this.
-
-Run this on your Raspberry Pi:
-
-```
-git clone git://github.com/quick2wire/quick2wire-gpio-admin.git ~/quick2wire-gpio-admin && cd ~/quick2wire-gpio-admin
-make
-sudo make install
-sudo adduser $USER gpio
-```
-
-In the examples, we are going to use pins 17 & 18, so let's export them so your user can access them.
-
-```
-gpio-admin export 17
-gpio-admin export 18
-```
-
 ## Included Examples
 
 * `node blink.js` - blink a LED attached to GPIO pin 18 every second.
