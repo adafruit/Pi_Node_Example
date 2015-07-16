@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/adafruit/Pi_Node_Example.git"
+    "type": "git",
+    "url": "https://github.com/adafruit/Pi_Node_Example.git"
   },
   "keywords": [
     "raspberry",
@@ -19,7 +19,7 @@
   "author": "Todd Treece <todd@uniontownlabs.org>",
   "license": "MIT",
   "dependencies": {
-    "gpio-stream": "^1.0.13",
-    "onoff": "^0.3.2"
+    "gpio-stream": "^1.0.16",
+    "onoff": "^1.0.2"
   }
 }
